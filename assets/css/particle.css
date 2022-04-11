@@ -1,0 +1,14 @@
+
+
+#particles-js {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 11111111111111111111;
+	background-image:  linear-gradient(rgba(25, 0, 255, 0.2), rgba(190, 79, 79,0.2)), url("../img/bg/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+
