@@ -35,7 +35,7 @@ body {
 }
 body {
     /* font-family: 'Montserrat', sans-serif; */
-   
+
 }
 #preloader {
     background-color: white;
@@ -369,7 +369,7 @@ fieldset {
 .welcome-slider-area,
 .welcome-hero-area,
 .welcome-slider-area div {
-    
+
     height: 100%;
 }
 .welcome-hero-area div.single-slide-item-table-cell,
@@ -894,7 +894,7 @@ ul.work li:hover {
     zoom: 1;
     *display: inline;
     /*IE7 life-saver */
-    
+
     ;
 }
 .owl-carousel .owl-controls {
@@ -917,7 +917,7 @@ ul.work li:hover {
     background: #4971ff !important;
     filter: Alpha(Opacity=100);
     /*IE7 fix*/
-    
+
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
@@ -1157,14 +1157,14 @@ a.blog-btn {
     font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
-}    
+}
     /*FOOTER*/
     footer{
     width:100%;
     background-color:#121619;
     color:#fff;
     }
-    
+
     .top_header{
     padding:2rem;
     display:flex;
@@ -1172,55 +1172,55 @@ a.blog-btn {
     justify-content:center;
     position:relative;
     }
-    
+
     .top_header section{
     display:flex;
     align-items:center;
     justify-content:center;
     width:100%;
     }
-    
+
     .top_header span{
     padding:0 1rem;
     }
-    
+
     .top_header .fa{
     color:#ffbe00;
     font-size:35px;
     }
-    
+
     footer .border-shape {
     width: 40%;
     }
-    
+
     footer .border-shape::before {
     width: 100%;
     left:120px;
     }
-    
+
     footer .border-shape::after {
     width: 100%;
     right:120px;
     }
-    
+
     footer .bottom_content section{
     padding:1.5rem 2rem;
     display:flex;
     align-items:center;
     justify-content:Center;
     }
-    
+
     .bottom_content a{
     margin:0 20px;
     color:rgba(255,255,255,0.7);
     transition:0.5s;
     }
-    
+
     .bottom_content a:hover{
     color:rgba(255,255,255,1);
     }
-    
-    
+
+
     .copyright{
     padding:0.8em 0;
     background-color:#1e1e1e;
@@ -1228,15 +1228,15 @@ a.blog-btn {
     color:rgba(255,255,255,0.7);
     font-size:12px;
     }
-    
-    
-    
+
+
+
     @media (max-width:820px){
     .top_header{
     padding:1rem;
     display:block;
     }
-    
+
     .top_header section{
     margin:40px 0;
     align-items:left;
@@ -1253,19 +1253,19 @@ a.blog-btn {
     display:inline-block;
     }
     }
-    
+
 .my-float{
 	margin-top:16px;
 }
 .projects-section{
-   
+
     background-color: white;
 }
 
-@media (max-height: 480px), screen and (orientation: portrait) { 
+@media (max-height: 480px), screen and (orientation: portrait) {
     .menu-bg .logo {
         max-width: 40%;
-        margin-left: 30px;    
+        margin-left: 30px;
         margin-top: 40px;
         -webkit-transition: .3s;
         transition: .3s;
@@ -1292,3 +1292,257 @@ a.blog-btn {
 }
 
 /*15.END FOOTER DESIGN AREA*/
+
+/* Ensure the section and container are styled */
+.our-services-area {
+    background-color: #f9f9f9; /* Example background color */
+    padding: 50px 0;
+}
+
+.single-service-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced evenly */
+    background: #fff; /* White background for service boxes */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 350px; /* Set a fixed height for consistency */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.single-service-box:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    font-size: 36px;
+    color: #007bff; /* Example icon color */
+    margin-bottom: 15px;
+}
+
+.service-content h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-content p {
+    font-size: 16px;
+}
+
+/* About US Section Styling */
+.about-us-area {
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+}
+
+.section-title .section-divider {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #007bff; /* Color matching brand theme */
+    margin: 20px auto;
+}
+
+.featured-area .single-featured {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.featured-area .single-featured:hover {
+    transform: translateY(-10px);
+}
+
+.featured-area .service-icon {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.featured-area .single-featured h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.featured-area .single-featured p {
+    font-size: 16px;
+    color: #666;
+}
+
+.about-text {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text h4 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.about-text span {
+    font-weight: bold;
+}
+
+.our-expertise {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-expertise h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background: #e9ecef;
+    border-radius: 5px;
+    height: 8px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.progress-bar-fill {
+    display: block;
+    background: #007bff; /* Color matching brand theme */
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.progress-bar-text {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+/* For CONTACT US Section */
+/* General styling for the contact section */
+.contact-us-area {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.contact-us-area h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-us-area p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.whatsapp-chat {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.whatsapp-chat a {
+    text-decoration: none;
+    color: #25D366; /* WhatsApp green color */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-chat img {
+    margin-right: 10px;
+}
+
+/* Styling for the contact form */
+#contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+#contact-form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact-form .form-group textarea {
+    resize: vertical;
+    height: 150px; /* Adjust as needed */
+}
+
+#contact-form button {
+    background-color: #007bff; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+/* Styling for the Career Area */
+
+.career-area {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.feature-box, .value-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-box i, .value-box i {
+    color: #007bff;
+}
+
+.email-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
